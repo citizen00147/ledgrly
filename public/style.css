@@ -89,6 +89,7 @@ form {
 form input,
 textarea {
   color: #413f42;
+  font-size: 1rem;
   border: none;
   resize: none;
   outline: none;
