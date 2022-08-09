@@ -15,7 +15,9 @@ function About() {
     <div>
       {isOpen && (
         <aside>
-          <button onClick={closeDown}>X</button>
+          <button style={{ color: "#413f42" }} onClick={closeDown}>
+            X
+          </button>
           <h3>What's this about?</h3>
           <p>
             Ledgrly is a simple note taking app that utilizes local storage over
@@ -41,7 +43,11 @@ function About() {
           </p>
         </aside>
       )}
-      <button className="aboutBtn" onClick={openUp}>
+      <button
+        style={{ color: "#413f42" }}
+        className="aboutBtn"
+        onClick={openUp}
+      >
         ???
       </button>
     </div>

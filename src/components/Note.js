@@ -8,7 +8,9 @@ function Note(props) {
   return (
     <div className="note-post">
       <div>
-        <button onClick={handleDelete}>X</button>
+        <button style={{ color: "#413f42" }} onClick={handleDelete}>
+          X
+        </button>
         <h2>{props.title}</h2>
         <p>{props.content}</p>
       </div>

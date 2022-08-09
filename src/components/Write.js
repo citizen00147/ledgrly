@@ -47,7 +47,9 @@ function Write(props) {
           rows={isExpanded ? "3" : "1"}
           value={note.content}
         ></textarea>
-        <button onClick={writeNote}>Log</button>
+        <button style={{ color: "#413f42" }} onClick={writeNote}>
+          Log
+        </button>
       </form>
     </div>
   );
