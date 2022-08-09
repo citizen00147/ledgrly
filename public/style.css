@@ -67,6 +67,11 @@ form button {
   font-family: ibm_plex_monoregular;
 }
 
+form input::placeholder,
+form textarea::placeholder {
+  font-size: 1rem;
+}
+
 body {
   height: 100%;
   margin: 0;
