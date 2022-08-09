@@ -124,7 +124,7 @@ form button:focus {
 
 footer {
   background-color: #f2f2f2;
-  border: black solid 1px;
+  border-top: black solid 1px;
   position: fixed;
   left: 0;
   bottom: 0;
