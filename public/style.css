@@ -258,3 +258,13 @@ p {
     box-shadow: -1px 2px #413f42;
   }
 }
+
+.note-post button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .note-post button {
+    margin: 0px;
+  }
+}
