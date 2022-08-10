@@ -145,6 +145,7 @@ footer {
 
 .note-post {
   display: flex;
+  font-size: 1rem;
   background-color: #f2f2f2;
   border: black solid 1px;
   border-radius: 2px;
