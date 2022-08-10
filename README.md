@@ -2,7 +2,7 @@
 
 </br>
 
-Ledgrly is a simple note taking app that utilizes local storage over a database. This project is based on another note taking web app in a web development course I'm taking, but with several changes and fixes:
+<a href="https://ledgrly.netlify.app/">Ledgrly</a> is a simple note taking app that utilizes local storage over a database. This project is based on another note taking web app in a web development course I'm taking, but with several changes and fixes:
 
 - A "retro" design
 - Responsive
