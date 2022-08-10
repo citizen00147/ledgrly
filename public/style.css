@@ -164,10 +164,9 @@ p {
 }
 
 .note-post button {
-  font-size: 0.9rem;
+  font-size: 1rem;
   background: none;
   border: none;
-  padding: none;
   margin-left: 3px;
   cursor: pointer;
 }
