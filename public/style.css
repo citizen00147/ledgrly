@@ -167,7 +167,7 @@ p {
   font-size: 1rem;
   background: none;
   border: none;
-  /* margin-left: 3px; */
+  margin-left: 3px;
   cursor: pointer;
 }
 
