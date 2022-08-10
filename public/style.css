@@ -169,6 +169,7 @@ p {
   border: none;
   margin-left: 3px;
   cursor: pointer;
+  -webkit-appearance: none;
 }
 
 @keyframes fade-in {
