@@ -165,6 +165,7 @@ p {
 }
 
 .note-post button {
+  box-sizing: border-box;
   font-size: 1rem;
   background: none;
   border: none;
