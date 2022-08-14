@@ -37,6 +37,7 @@ function Write(props) {
             onChange={handleChange}
             placeholder="Title"
             value={note.title}
+            required="true"
           ></input>
         )}
         <textarea
@@ -46,6 +47,7 @@ function Write(props) {
           placeholder="Log your thoughts..."
           rows={isExpanded ? "3" : "1"}
           value={note.content}
+          required="true"
         ></textarea>
         <button style={{ color: "#413f42" }} onClick={writeNote}>
           Log
